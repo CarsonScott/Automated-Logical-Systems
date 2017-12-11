@@ -1,4 +1,25 @@
-from Objects import *
+from Factories import *
+
+def isobject(X):
+	return isinstance(X, Object)
+
+def isnum(x):
+	try:
+		float(x)
+		return True
+	except ValueError:
+		return False
+
+def isint(x):
+	return x == int(x)
+
+def getinputs(o, x):
+	for i in range(len(x)):
+		if isnum(x[i]):
+			x[i] = float(x[i])
+		else:
+			x[i] = o[x[i]]
+	return x
 
 def parse(statement):
 	w = ''
@@ -64,4 +85,3 @@ def call(system, model):
 		if isobject(x): x = call(system, x)
 		inputs.append(x)
 	return system['F'][model['F']](system, inputs)
-
