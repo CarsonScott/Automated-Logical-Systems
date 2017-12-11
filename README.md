@@ -1,5 +1,7 @@
 # Automated Logical Systems
 
+The following is a description for a multi-agent system of distributed constraint satisfaction. Agents send and receive messages between one another, executing them recursively in order to change and update their knowledge of the environment. Agents collectively act as a distributed knowledge system, developing and progressing by way of tasks that are delegated through message-passing. 
+
 ## 1. Objects and Storage
 
 A data store has a capacity which limits the amount of information that it can hold. When the capacity of a store is met, the contents are mapped by a function M(S) to another structure called an object. The store is then free to hold new new information as the previous content has been moved to the object. Objects can take on various roles depending on the type of information dealt to them, for instance they can be used to represent a pattern, where the map function removes all but a certain set of features from the content of a store.
