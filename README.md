@@ -1,6 +1,6 @@
 # Automated Logical Systems
 
-The following is a description for a multi-agent system of distributed constraint satisfaction. Agents send and receive messages between one another, executing them recursively in order to change and update their knowledge of the environment. Agents collectively act as a distributed knowledge system, developing and progressing by way of tasks that are delegated through message-passing. 
+The following is a description of a multi-agent system for distributed constraint satisfaction. Agents send and receive messages between one another, executing them recursively in order to change and update their knowledge of the environment. Agents collectively act as a distributed knowledge system, developing and progressing by way of delegating tasks through messages. 
 
 ## 1. Objects and Storage
 
