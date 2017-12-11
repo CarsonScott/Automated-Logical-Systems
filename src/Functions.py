@@ -64,3 +64,4 @@ def call(system, model):
 		if isobject(x): x = call(system, x)
 		inputs.append(x)
 	return system['F'][model['F']](system, inputs)
+
