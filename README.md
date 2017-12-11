@@ -25,3 +25,19 @@ Rules defining the creation of objects can be chained together, effectively rema
 ## 5. Truth and Conditions
 
 Objects can take a bit of information and pass it along connectives that holds true, providing another object with the same information who can then send it further into the network. Data propagates through the medium of true propositions, where a certain connective will allow the transference of information if and only if it satisfies some proposition. Therefore a given bit of data will only travel through a network if it meets the logical requirements of said network, providing an essential structure for testing information against a set of propositional statements to determine whether certain conditions hold true.
+
+## 6. Agents and Knowledge
+
+An agent is an object that interprets a set of statements. Agents act like computer programs, with a scope equal to the elements stored within the agent called its knowledge. Agents can contain other agents and execute recursively, calling each individual sequentially who in turn either executes another set of agents or, in the case of base agents (lowest agents in a hierarchy), a set of statements.
+
+## 7. Society and Communication
+
+Agents are connected in two ways, either hierarchically as described above or in a network where no individual is explicitly dominant to any other. Networks allow agents to send and receive information, forming a system of distributed knowledge. Each individual can make requests and provide information to its neighbors, or a subset of agents to which one is connected via communication lines, which act as vehicles for messages between agents.
+
+## 8. Beliefs and Messages
+
+Messages are statements that are sent by an agent and received by its neighbors, who have the ability to either accept or deny the message which determines whether the statement is executed. By accepting a given message, the receiver allows the sender to manipulate some aspect of their memory, whether it be a request for some specific knowledge or a command that causes change to that which is known by the receiver. Together a system collectively constructs knowledge that is known by its members. Information that is perceived as true is established through interactions between agents who then conform to a stable set of concepts.
+
+## 9. Culture and Conformity
+
+Messages that do not reflect or even violate the ideals of a system are more likely to be rejected, as receiving agents do not belief what is said to be true. The beliefs of a system are therefore resistant to change, slowing the development of knowledge that is not pre-established as the system moves forward in time. However, subtle difference between members in what is accepted cause the development of knowledge over time, albeit gradually. This leads to cultural trends that spread and dissipate across the network, causing shifts in attitude regarding what rules should be followed in terms of sending and receiving messages.
